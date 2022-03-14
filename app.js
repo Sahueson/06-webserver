@@ -3,7 +3,7 @@ const express = require('express')
 const hbs = require('hbs');
 
 const app = express()
-const port = process.env.port;
+const port = process.env.PORT;
 
 // Handlebars
 app.set('view engine', 'hbs');
